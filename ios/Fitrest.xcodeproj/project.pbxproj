@@ -83,7 +83,7 @@
 				056F63395CAC2B8C2DC048FE /* Pods-Fitrest.debug.xcconfig */,
 				E40B1F720DE0D29BF6B90074 /* Pods-Fitrest.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
