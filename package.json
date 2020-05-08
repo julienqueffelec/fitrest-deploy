@@ -57,8 +57,8 @@
     "test-runner": "jest",
     "configurations": {
       "ios.sim.debug": {
-        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/Fitrest.app",
-        "build": "xcodebuild -workspace ios/Fitrest.xcworkspace -scheme Fitrest -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/Fitrest.app",
+        "build": "xcodebuild -workspace ios/Fitrest.xcworkspace -scheme Fitrest -configuration Release -sdk iphonesimulator -derivedDataPath ios/build",
         "type": "ios.simulator",
         "device": {
           "type": "iPhone 11 Pro"
