@@ -278,6 +278,7 @@
 				DEVELOPMENT_TEAM = 6J3UTX6L66;
 				INFOPLIST_FILE = Fitrest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -298,6 +299,7 @@
 				DEVELOPMENT_TEAM = 6J3UTX6L66;
 				INFOPLIST_FILE = Fitrest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
