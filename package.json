@@ -60,17 +60,15 @@
         "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/Fitrest.app",
         "build": "xcodebuild -project ios/Fitrest.xcodeproj -scheme Fitrest -configuration Release -sdk iphonesimulator -derivedDataPath ios/build",
         "type": "ios.simulator",
-        "name": "iPhone X",
-        "device": {
-          "type": "iPhone 11 Pro"
-        }
+        "name": "iPhone X"
       },
       "ios.sim.debug": {
         "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/Fitrest.app",
-        "build": "xcodebuild -project ios/Fitrest.xcodeproj -scheme Fitrest -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build -UseNewBuildSystem=NO",
+        "build": "xcodebuild -project ios/Fitrest.xcodeproj -scheme Fitrest -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
         "type": "ios.simulator",
-        "name": "iPhone 8"
+        "name": "iPhone 5s"
       }
-    }
+    },
+    "specs": "e2e"
   }
 }
